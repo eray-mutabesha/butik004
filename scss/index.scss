@@ -19,11 +19,15 @@ header{
     justify-content:space-between;
 ul{
     margin: 10px;
-  display: flex;
-  gap: 20px;  
+    display: flex;
+    gap: 20px;  
 }
 h1{
+    
+   
     width: 30%;
+    text-align: right;
+    
     
 }
 div{
@@ -48,6 +52,8 @@ div{
     margin-top: 80px;
     nav{
         img{
+            object-fit: cover ;
+            width: 350px;
             height: 300px;
         }
         height: 300px;

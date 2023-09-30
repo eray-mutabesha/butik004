@@ -35,10 +35,27 @@ h2 {
   margin-right: auto;
   margin-top: -100px;
 }
-.icones_div {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
+.menu {
+  position: absolute;
+  top: 40px;
+  left: -500px;
+}
+
+.menu_deroulant {
+  background: rgb(167, 74, 74);
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  width: 500px;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+  transition: 1s;
+}
+.menu_deroulant p {
+  margin: 10px auto;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
 }
 
 * {
@@ -69,6 +86,7 @@ header ul {
 }
 header h1 {
   width: 30%;
+  text-align: right;
 }
 header div {
   margin: 10px;
@@ -98,6 +116,9 @@ header div {
   text-align: center;
 }
 .weekly_display nav img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 350px;
   height: 300px;
 }
 .weekly_display nav button {
